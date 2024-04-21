@@ -18,13 +18,11 @@ body:
     attributes:
       label: Abstract of the Talk
       description: Abstract of your Talk
-      render: markdown
     validations:
       required: true
   - type: textarea
     attributes:
       label: Speaker(s) Bio
       description: Speaker(s) Details ( Bio and Linkedin URL)
-      render: markdown
     validations:
       required: true      
