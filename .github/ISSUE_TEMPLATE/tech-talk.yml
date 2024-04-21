@@ -11,8 +11,8 @@ body:
       label: Mode of the Talk
       description: How do you want to present the talk?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - In Person
+        - Online
       default: 0
   - type: textarea
     attributes:
