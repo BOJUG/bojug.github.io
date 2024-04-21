@@ -1,21 +1,30 @@
 name: Tech Talk
 description: Tech Talk for JUG
 title: "[Tech Talk]: "
-labels: ["enhancement"]
+labels: ["event"]
 assignees:
   - sathishk
 body:
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode of the Talk
+      description: How do you want to present the talk?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+      default: 0
   - type: textarea
     attributes:
       label: Abstract of the Talk
-      description: Abstract of the Talk
+      description: Abstract of your Talk
       render: markdown
     validations:
       required: true
   - type: textarea
     attributes:
       label: Speaker(s) Bio
-      description: Speaker(s) Details
+      description: Speaker(s) Details ( Bio and Linkedin URL)
       render: markdown
     validations:
       required: true      
