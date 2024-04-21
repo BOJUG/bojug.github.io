@@ -5,9 +5,15 @@ labels: ["enhancement"]
 assignees:
   - sathishk
 body:
-  - type: textarea
+  - type: markdown
     attributes:
-      label: Current Behavior
-      description: A concise description of what you're experiencing.
+      label: Abstract of the Talk
+      description: Abstract of the Talk
     validations:
       required: true
+  - type: markdown
+    attributes:
+      label: Speaker(s) Bio
+      description: Speaker(s) Details
+    validations:
+      required: true      
